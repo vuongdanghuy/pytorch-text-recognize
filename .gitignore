@@ -1,0 +1,10 @@
+crnn/word/
+crnn/*.png
+crnn/*.jpg
+crnn/*.pth
+crnn/*.xml
+aster/test/
+aster/*.pth
+aster/*.sh
+.ipynb_checkpoints/
+aster/.ipynb_checkpoints/
