@@ -1,0 +1,17 @@
+config = {
+	'tps_inputsize': [32,64],
+	'with_lstm': True,
+	'n_group': 1,
+	'tps_outputsize': [32,100],
+	'num_control_points': 20,
+	'tps_margins': [0.05,0.05],
+	'stn_activation': 'none',
+	'beam_width': 5,
+	'voc_type': 'ALLCASES_SYMBOLS',
+	'arch': 'ResNet_ASTER',
+	'decoder_sdim': 512,
+	'attDim': 512,
+	'max_len': 100,
+	'STN_ON': True,
+	'run_on_remote': False,
+}
